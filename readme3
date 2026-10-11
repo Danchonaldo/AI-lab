@@ -1,0 +1,43 @@
+# Lab 03 — What RAG Is Made Of
+
+This repository contains my solution for Lab 03 — What RAG Is Made Of.
+
+## Description
+
+In this laboratory work, I built the four pieces of a retrieval-augmented generation (RAG) system by hand on four short policy articles from a fictional bank.
+
+The lab includes:
+
+- Chunking: article-level vs sentence-level
+- Embedding with `intfloat/multilingual-e5-small`
+- Retrieval with cosine similarity (literal and paraphrase queries)
+- Generation with `Qwen/Qwen2.5-1.5B-Instruct`, without and with retrieved context
+- Optional: recall@1 comparison of the two chunking strategies
+
+## Models
+
+- Embedding: `intfloat/multilingual-e5-small`
+- Generation: `Qwen/Qwen2.5-1.5B-Instruct`
+
+## Files
+
+- `lab03_what_is_rag.ipynb` — completed laboratory notebook
+- `README.md` — project description
+
+## How to run
+
+The notebook can be opened in Google Colab.
+
+Original laboratory notebook:
+
+https://colab.research.google.com/github/unreal-kz/lab-03-AI-course/blob/main/lab03_what_is_rag.ipynb
+
+Open the notebook and run the cells one by one (predict before you measure).
+
+## Student
+
+Name: Daniyar Kekilbayev
+
+University: Narxoz University
+
+Course: Artificial Intelligence
